@@ -17,6 +17,10 @@
 		76F20FDE27C23469006E70CC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FDD27C23469006E70CC /* ChatListView.swift */; };
 		76F20FE027C234AE006E70CC /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FDF27C234AE006E70CC /* CollectionView.swift */; };
 		76F20FE227C23559006E70CC /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FE127C23559006E70CC /* FilterView.swift */; };
+		76F20FE627C24558006E70CC /* chatsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 76F20FE527C24558006E70CC /* chatsData.json */; };
+		76F20FEB27C251BD006E70CC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FEA27C251BD006E70CC /* DataManager.swift */; };
+		76F20FEF27C25975006E70CC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FEE27C25975006E70CC /* Chat.swift */; };
+		76F20FF227C25BCE006E70CC /* ChatListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FF127C25BCE006E70CC /* ChatListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		76F20FDD27C23469006E70CC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		76F20FDF27C234AE006E70CC /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		76F20FE127C23559006E70CC /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		76F20FE527C24558006E70CC /* chatsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatsData.json; sourceTree = "<group>"; };
+		76F20FEA27C251BD006E70CC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		76F20FEE27C25975006E70CC /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		76F20FF127C25BCE006E70CC /* ChatListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +108,12 @@
 		76F20FB227C230AB006E70CC /* WeChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76F20FF027C25B9D006E70CC /* ViewModels */,
+				76F20FED27C255EB006E70CC /* Models */,
+				76F20FEC27C255CE006E70CC /* Views */,
+				76F20FE927C25163006E70CC /* Tools */,
+				76F20FE327C243DB006E70CC /* Resoures */,
 				76F20FB327C230AB006E70CC /* WeChatDemoApp.swift */,
-				76F20FB527C230AB006E70CC /* HomeView.swift */,
-				76F20FDD27C23469006E70CC /* ChatListView.swift */,
-				76F20FDF27C234AE006E70CC /* CollectionView.swift */,
-				76F20FE127C23559006E70CC /* FilterView.swift */,
 				76F20FB727C230AD006E70CC /* Assets.xcassets */,
 				76F20FB927C230AD006E70CC /* Preview Content */,
 			);
@@ -134,6 +143,49 @@
 				76F20FD027C230AD006E70CC /* WeChatDemoUITestsLaunchTests.swift */,
 			);
 			path = WeChatDemoUITests;
+			sourceTree = "<group>";
+		};
+		76F20FE327C243DB006E70CC /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				76F20FE527C24558006E70CC /* chatsData.json */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		76F20FE927C25163006E70CC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				76F20FEA27C251BD006E70CC /* DataManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		76F20FEC27C255CE006E70CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76F20FB527C230AB006E70CC /* HomeView.swift */,
+				76F20FDD27C23469006E70CC /* ChatListView.swift */,
+				76F20FDF27C234AE006E70CC /* CollectionView.swift */,
+				76F20FE127C23559006E70CC /* FilterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76F20FED27C255EB006E70CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76F20FEE27C25975006E70CC /* Chat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76F20FF027C25B9D006E70CC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				76F20FF127C25BCE006E70CC /* ChatListVM.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F20FE627C24558006E70CC /* chatsData.json in Resources */,
 				76F20FBB27C230AD006E70CC /* Preview Assets.xcassets in Resources */,
 				76F20FB827C230AD006E70CC /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F20FB627C230AB006E70CC /* HomeView.swift in Sources */,
+				76F20FEB27C251BD006E70CC /* DataManager.swift in Sources */,
+				76F20FF227C25BCE006E70CC /* ChatListVM.swift in Sources */,
+				76F20FEF27C25975006E70CC /* Chat.swift in Sources */,
 				76F20FDE27C23469006E70CC /* ChatListView.swift in Sources */,
 				76F20FE027C234AE006E70CC /* CollectionView.swift in Sources */,
 				76F20FE227C23559006E70CC /* FilterView.swift in Sources */,
