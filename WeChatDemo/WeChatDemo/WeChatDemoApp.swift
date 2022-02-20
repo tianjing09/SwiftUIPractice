@@ -11,7 +11,7 @@ import SwiftUI
 struct WeChatDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
