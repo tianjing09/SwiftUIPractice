@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Vivian",
+        "category": "Friend",
+        "id": 1001,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Nancy",
+        "category": "work",
+        "id": 1002,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "hello, WHERE are you?",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Selina",
+        "category": "Family",
+        "id": 1003,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "good night",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ],
+    },
+    {
+        "name": "Irene",
+        "category": "Friend",
+        "id": 1004,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "hello, shall we eat out?",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Bella",
+        "category": "Friend",
+        "id": 1005,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "when will you go to our school",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Abby",
+        "category": "",
+        "id": 1006,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "Do me a favor?",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Jack",
+        "category": "Family",
+        "id": 1007,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "honey, shall we watch a movie tonight?",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Leon",
+        "category": "Friend",
+        "id": 1008,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "When will YOU be free?",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    },
+    {
+        "name": "Claus",
+        "category": "",
+        "id": 1009,
+        "imageName": "turtlerock",
+        "chats": [
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350693,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645350893,
+            },
+            {
+                "text": "hello",
+                "isSentByMe": false,
+                "time": 1645351693,
+            },
+            {
+                "text": "hi",
+                "isSentByMe": false,
+                "time": 1645352693,
+            }
+        ]
+    }
+]
