@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7610299727C26898008FDBD8 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610299627C26898008FDBD8 /* Datas.swift */; };
+		7610299927CE62B3008FDBD8 /* ChatListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610299827CE62B3008FDBD8 /* ChatListRow.swift */; };
 		76F20FB427C230AB006E70CC /* WeChatDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FB327C230AB006E70CC /* WeChatDemoApp.swift */; };
 		76F20FB627C230AB006E70CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F20FB527C230AB006E70CC /* HomeView.swift */; };
 		76F20FB827C230AD006E70CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F20FB727C230AD006E70CC /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		7610299627C26898008FDBD8 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		7610299827CE62B3008FDBD8 /* ChatListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListRow.swift; sourceTree = "<group>"; };
 		76F20FB027C230AB006E70CC /* WeChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F20FB327C230AB006E70CC /* WeChatDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatDemoApp.swift; sourceTree = "<group>"; };
 		76F20FB527C230AB006E70CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				76F20FB527C230AB006E70CC /* HomeView.swift */,
 				76F20FDD27C23469006E70CC /* ChatListView.swift */,
+				7610299827CE62B3008FDBD8 /* ChatListRow.swift */,
 				76F20FDF27C234AE006E70CC /* CollectionView.swift */,
 				76F20FE127C23559006E70CC /* FilterView.swift */,
 			);
@@ -324,6 +327,7 @@
 			files = (
 				76F20FB627C230AB006E70CC /* HomeView.swift in Sources */,
 				76F20FEB27C251BD006E70CC /* DataManager.swift in Sources */,
+				7610299927CE62B3008FDBD8 /* ChatListRow.swift in Sources */,
 				76F20FF227C25BCE006E70CC /* ChatListVM.swift in Sources */,
 				76F20FEF27C25975006E70CC /* Chat.swift in Sources */,
 				7610299727C26898008FDBD8 /* Datas.swift in Sources */,

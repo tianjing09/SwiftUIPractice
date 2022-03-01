@@ -13,7 +13,7 @@ struct Contact: Codable, Identifiable {
     let chats: [Chat]
 }
 
-struct Chat: Codable, Identifiable {
+struct Chat: Codable, Identifiable, Hashable {
     let id = UUID()
     let time: Int
     let isSentByMe: Bool

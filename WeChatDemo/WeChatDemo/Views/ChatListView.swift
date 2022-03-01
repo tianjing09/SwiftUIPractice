@@ -14,10 +14,13 @@ struct ChatListView: View {
             Text("hello, jing")
             
             ForEach(vm.contacts) { contact in
-                Text(contact.name)
+                ChatListRow(contact: contact)
             }
         }
         .navigationTitle("Chat")
+        .overlay(alignment: .top) {
+            Color(.green)
+        }
         .onAppear {
             print("tian:onAppear")
             vm.getContacts()

@@ -3,7 +3,7 @@
         "name": "Vivian",
         "category": "Friend",
         "id": 1001,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -31,7 +31,7 @@
         "name": "Nancy",
         "category": "work",
         "id": 1002,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -59,7 +59,7 @@
         "name": "Selina",
         "category": "Family",
         "id": 1003,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -87,7 +87,7 @@
         "name": "Irene",
         "category": "Friend",
         "id": 1004,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -115,7 +115,7 @@
         "name": "Bella",
         "category": "Friend",
         "id": 1005,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -143,7 +143,7 @@
         "name": "Abby",
         "category": "",
         "id": 1006,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -171,7 +171,7 @@
         "name": "Jack",
         "category": "Family",
         "id": 1007,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -199,7 +199,7 @@
         "name": "Leon",
         "category": "Friend",
         "id": 1008,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
@@ -227,7 +227,7 @@
         "name": "Claus",
         "category": "",
         "id": 1009,
-        "imageName": "turtlerock",
+        "imageName": "hare",
         "chats": [
             {
                 "text": "hello",
