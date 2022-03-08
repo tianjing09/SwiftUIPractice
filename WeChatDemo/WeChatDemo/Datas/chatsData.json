@@ -4,6 +4,7 @@
         "category": "Friend",
         "id": 1001,
         "imageName": "hare",
+        "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -32,6 +33,7 @@
         "category": "work",
         "id": 1002,
         "imageName": "hare",
+       "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -60,6 +62,7 @@
         "category": "Family",
         "id": 1003,
         "imageName": "hare",
+       "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -88,6 +91,7 @@
         "category": "Friend",
         "id": 1004,
         "imageName": "hare",
+       "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -116,6 +120,7 @@
         "category": "Friend",
         "id": 1005,
         "imageName": "hare",
+        "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -144,6 +149,7 @@
         "category": "",
         "id": 1006,
         "imageName": "hare",
+        "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -172,6 +178,7 @@
         "category": "Family",
         "id": 1007,
         "imageName": "hare",
+        "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -200,6 +207,7 @@
         "category": "Friend",
         "id": 1008,
         "imageName": "hare",
+       "isShield": false,
         "chats": [
             {
                 "text": "hello",
@@ -228,6 +236,7 @@
         "category": "",
         "id": 1009,
         "imageName": "hare",
+       "isShield": false,
         "chats": [
             {
                 "text": "hello",

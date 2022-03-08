@@ -21,7 +21,7 @@ struct ChatListRow: View {
                         .font(.caption)
                         .foregroundColor(.red)
                     Spacer()
-                    Text("\(contact.chats.last?.time ?? 1)")
+                    Text("\(contact.chats.last?.displayTime ?? "")")
                         .fontWeight(.bold)
                         .font(.caption)
                         .foregroundColor(.yellow)
@@ -35,6 +35,11 @@ struct ChatListRow: View {
                         .foregroundColor(.red)
                         .lineLimit(1)
                     Spacer()
+                    if contact.isShield {
+                        Image(systemName: "mic.slash")
+                        .imageScale(.large)
+                        .symbolRenderingMode(.monochrome)
+                    }
                 }
                 //.background(.green)
             }
